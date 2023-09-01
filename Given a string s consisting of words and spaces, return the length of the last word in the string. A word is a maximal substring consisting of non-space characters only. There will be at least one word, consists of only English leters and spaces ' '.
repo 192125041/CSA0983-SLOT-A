@@ -1,0 +1,10 @@
+import java.util.*;
+class Main{
+public static void main(String [] args){
+   String a="hi venu rav";
+   int c=0;
+ int l=a.length()-1;
+while(a.charAt(l)!=' ') {
+            c=c+1;
+            l=l-1;}
+        System.out.print(c) ;  }}
